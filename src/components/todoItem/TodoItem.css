@@ -1,0 +1,35 @@
+.view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+
+.destroy {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.state {
+  border-radius: 10px;
+  height: 30px;
+}
+
+.notStarted {
+  background-color: red;
+}
+
+.expected {
+  background-color: royalblue;
+}
+
+.completed {
+    background-color: green;
+}
+
+.option {
+  background-color: white;
+}

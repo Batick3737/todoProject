@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 15px;
+}
